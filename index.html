@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+  <title>Найди пару</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="ava.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="game"></div>
+		<div class="modal-overlay">
+			<div class="result_w">
+				<button class="result">Записать результат</button>
+			</div>
+
+			<div class="modal">
+				
+				<h2 class="winner">Результат: <br> <p id="time" class="time" >90</p> <p class="sec">секунд(-ы)</p></h2>
+				
+				<button class="restart">Ещё?</button>
+
+			</div>
+			<button class="sucsess">Отправлено</button>
+			<div class="text-field">
+				<label class="text-field__label" for="email">Ник в telegram</label><br><br><br>
+				<div class="text-field__icon">
+				  <input class="text-field__input" type="email" name = "string" placeholder="@telegram" value="@">
+				  <button class="otpr" id="otpr">Отправить</button>
+				</div>
+			</div>
+
+
+			<button class="arrow">←</button>
+
+		</div>	
+  </div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script  src="./script.js"></script>
+
+</body>
+</html>
